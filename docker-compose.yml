@@ -6,7 +6,7 @@ services:
     container_name: camunda
     working_dir: /app
     volumes:
-      - ~/uzrnem/camunda/youtube:/app
+      - ~/uzrnem/camunda-spring-boot-starter:/app
       - ~/uzrnem/maven:/root/.m2:rw
     ports:
       - 8080:8080
